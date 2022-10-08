@@ -1,0 +1,45 @@
+<!-- (Dom) means document Object Model -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class-3</title>
+    <script src="script.js"></script>
+</head>
+<body>
+   <main>
+    <h3 id="sumona">Exploring DOM</h3>
+    <section >
+        <p> this is the first paragraph
+        </p>
+        <p> this is the 2nd paragraph</p>
+        <h1> this is a h1 </h1>
+    </section>
+
+    <section>
+        <p class="profile">this is a bag</p>
+        <p class="profile">this is a bag</p>
+        <p class="profile">this is a bag</p>
+    </section>
+   </main> 
+
+   <script>
+    var first = document.getElementsByClassName('profile');
+first.style.color = 'green';
+   </script>
+</body>
+</html>
+
+<!-- 
+    Note
+    java script code
+    website a write click kre inspect of theke console a giye likhte hbe
+    nicher code gulo likhle dekha jabe full code a koto gula id,class tagname ase
+
+    > document.getElementById()       id single thake tai element likhte hoi
+    > document.getElementsByTagName()  tagname hocche p,b,section,main
+    > document.getElementsbyClassName()   class different jaygay use kore, tai elements likhte hoi
+    > 
+ -->

@@ -1,0 +1,1 @@
+console.log("ata hocche external script")
